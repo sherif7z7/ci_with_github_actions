@@ -17,7 +17,7 @@ jobs:
            -H "Authorization: Bearer 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"\
            -H "X-GitHub-Api-Version: 2022-11-28" \
            http://api.github.com/repos/sherif7z7/ci_with_github_actions/releases \
-           -d '{"tag_name":"v1.0.0","target_commitish":"main","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
+           -d '{"tag_name":"v1.0.0","target_commitish":"master","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
 
 
 
