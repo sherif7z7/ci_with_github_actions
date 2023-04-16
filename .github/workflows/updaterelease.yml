@@ -29,8 +29,9 @@ name: "releases"
  
 on:
   push:
-    tags:
-      - '**'
+     branches:
+       - main
+
  
 jobs:
   run-updater:
