@@ -16,7 +16,7 @@ jobs:
            -H "Accept: application/vnd.github+json" \
            -H "Authorization: Bearer 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"\
            -H "X-GitHub-Api-Version: 2022-11-28" \
-           http://api.github.com/repos/sherif7z7/ci_with_github_actions/releases/generate-notes \
+           http://api.github.com/repos/sherif7z7/ci_with_github_actions/generate-notes \
            -d '{"tag_name":"v1.0.0","target_commitish":"main","name":"v1.0.0","body":"Description of the release","draft":false,"prerelease":false,"generate_release_notes":false}'
 
 
