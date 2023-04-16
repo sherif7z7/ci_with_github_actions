@@ -37,7 +37,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: create release
-        run: |
+      run: |
          curl -L \
          -X POST \
          -H "Accept: application/vnd.github+json" \
