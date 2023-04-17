@@ -15,7 +15,7 @@ jobs:
       run: |
           echo $RELEASE_VERSION
           echo ${{ env.RELEASE_VERSION }}
-          echo ${{github.ref_name}}
+          echo ${{env.TAG}}
     - name: search release
       run: |
        curl -L \
