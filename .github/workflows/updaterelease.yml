@@ -15,7 +15,7 @@ jobs:
       run: |
           echo $RELEASE_VERSION
           echo ${{ env.RELEASE_VERSION }}
-          echo ${{env.TAG}}
+          echo ${{env.tag}}
           
     - name: search release
       run: |
