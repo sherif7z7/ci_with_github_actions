@@ -16,6 +16,7 @@ jobs:
           echo $RELEASE_VERSION
           echo ${{ env.RELEASE_VERSION }}
           echo ${{env.TAG}}
+          
     - name: search release
       run: |
        curl -L \
